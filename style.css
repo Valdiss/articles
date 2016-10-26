@@ -29,7 +29,7 @@ article {
 article:hover #lire {
 	text-decoration: underline;
 	text-transform: capitalize;
-	transform: scale(3);
+	transform: scale(2);
 }
 
 p{
