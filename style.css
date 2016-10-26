@@ -1,0 +1,41 @@
+
+body{
+	margin: 0px;
+}
+img {
+	float: left;
+	max-width: 20%;
+	margin: 0px 10px 10px 0px;
+}
+
+button {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+article {
+	position: relative;
+	float: left;
+	border: solid black 1px;
+	box-sizing: border-box;
+	width: 50%;
+}
+
+#lire {
+	text-align: center;
+}
+
+article:hover #lire {
+	text-decoration: underline;
+	text-transform: capitalize;
+	transform: scale(3);
+}
+
+p{
+	margin: 10px;
+}
+
+button:focus article{
+	display: none;
+}
