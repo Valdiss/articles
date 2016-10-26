@@ -36,6 +36,6 @@ p{
 	margin: 10px;
 }
 
-button:focus article{
+#pointe1:target {
 	display: none;
 }
